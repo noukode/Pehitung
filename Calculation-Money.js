@@ -1,5 +1,5 @@
 function getValue() {
-    const penghasilanValue = document.getElementById("input-penghasilan").value;
+    const penghasilanValue = autoFormat.getNumber();
 
     const penghasilan = penghasilanValue;
 
@@ -42,7 +42,7 @@ function converterRupiah(num) {
       }
     }
     const result =
-      "Rp." +
+      "Rp. " +
       rupiah
         .split("", rupiah.length - 1)
         .reverse()
