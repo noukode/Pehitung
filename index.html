@@ -7,10 +7,10 @@
     <title>Pehitung</title>
 </head>
 <body>
-    <form>
+    <form id="form" onsubmit="getValue">
         <label for="">Masukan Penghasilan Anda</label>
-        <input type="text" id="input-penghasilan">
-        <button type="button" onclick="getValue()"></button>
+        <input type="text" maxlength="13" id="input-penghasilan">
+        <button id="submitButton" type="button" onclick="getValue()"></button>
     </form>
 
     <h2>Perhitungan Keuangan :</h2>
