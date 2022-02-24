@@ -1,0 +1,23 @@
+{
+  "name": "pehitung",
+  "version": "1.2.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./Styles/main.css -o ./Styles/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mgkusumaputra/Pehitung.git"
+  },
+  "author": "Mgkusumaputra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mgkusumaputra/Pehitung/issues"
+  },
+  "homepage": "https://github.com/Mgkusumaputra/Pehitung",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
